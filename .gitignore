@@ -1,0 +1,19 @@
+# 忽略根目录下的 data、image、output
+/data/
+/image/
+/output/
+
+# 忽略所有层级的权重文件
+*.pth
+*.h5
+*.ckpt
+
+# 忽略视频文件
+*.mp4
+
+# 忽略大文件
+*.tfevents*
+
+# 强制跟踪 .gitignore 和 .github
+!.gitignore
+!.github/
